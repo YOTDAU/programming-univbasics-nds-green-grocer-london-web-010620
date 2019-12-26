@@ -43,7 +43,7 @@ def apply_coupons(cart, coupons)
   i = 0 
   
   while i <coupons.count do
-    cart_item = find_item_by_name_in_collection[] 
+    cart_item = find_item_by_name_in_collection(coupons[i][:item], cart) 
     
   
   # Consult README for inputs and outputs
