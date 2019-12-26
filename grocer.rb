@@ -59,7 +59,12 @@ def apply_coupons(cart, coupons)
           }
           cart << item_coupon
         end
-        
+      end
+      i += 1 
+    end
+    cart
+  end
+  
     
     
   
