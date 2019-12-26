@@ -40,6 +40,8 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
+  
+  
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
