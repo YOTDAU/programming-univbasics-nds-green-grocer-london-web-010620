@@ -53,7 +53,7 @@ def apply_coupons(cart, coupons)
       else
         item_coupon = {
           :item => coupon_name, 
-          :price => 
+          :price => coupons[i][]
         }
     
     
