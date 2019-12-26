@@ -46,7 +46,7 @@ def apply_coupons(cart, coupons)
     item_name = find_item_by_name_in_collection(coupons[i][:item], cart)
     coupon_name = "#{coupons[i][:item]} W/COUPON"
     item_coupon = find_item_by_name_in_collection(coupon_name, cart)
-    if item_name && item_name[:count] == 
+    if item_name && item_name[:count] >= 
     
      avocado_coupon = coupons.first
         perfect_avocado_cart = [ avocado, avocado ]
