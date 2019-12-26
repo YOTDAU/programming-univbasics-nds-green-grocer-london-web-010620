@@ -1,6 +1,8 @@
 def find_item_by_name_in_collection(name, collection)
   i = 0 
   
+  while i < collection.length do 
+    name = collection[i][:item]
  
  
   # Implement me first!
