@@ -5,9 +5,8 @@ def find_item_by_name_in_collection(name, collection)
     if name == collection[i][:item]
       return collection[i]
     end
+    i += 1 
     
- 
- 
   # Implement me first!
   #
   # Consult README for inputs and outputs
