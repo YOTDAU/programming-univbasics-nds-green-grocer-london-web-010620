@@ -49,7 +49,7 @@ def apply_coupons(cart, coupons)
     if item_name && item_name[:count] >= coupons[i][:num]
       if item_coupon
         item_coupon [:count] += coupons[i][:num]
-        
+        item_name -= coupons
     
     
   
