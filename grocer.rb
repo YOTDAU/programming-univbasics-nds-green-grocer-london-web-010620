@@ -6,7 +6,7 @@ def find_item_by_name_in_collection(name, collection)
       return collection[i]
     end
     i += 1 
-    
+  end
   # Implement me first!
   #
   # Consult README for inputs and outputs
