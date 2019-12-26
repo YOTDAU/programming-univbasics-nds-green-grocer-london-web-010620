@@ -49,13 +49,6 @@ def apply_coupons(cart, coupons)
     if item_name && item_name[:count] >= coupons[i][:num]
       
     
-     avocado_coupon = coupons.first
-        perfect_avocado_cart = [ avocado, avocado ]
-        consolidated_cart = consolidate_cart(perfect_avocado_cart)
-        coupon_applied_cart = apply_coupons(consolidated_cart, [avocado_coupon])
-        found_item = find_item_by_name_in_collection(item_with_coupon_applied_name, coupon_applied_cart)
-        expect(found_item).to_not be_nil, "After applying valid coupons make sure you add the applied coupon Hash"
-    
     
   
   # Consult README for inputs and outputs
