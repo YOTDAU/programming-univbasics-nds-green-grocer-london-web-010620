@@ -40,7 +40,10 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
+  i = 0 
   
+  while i <cart.length do 
+    
   
   # Consult README for inputs and outputs
   #
