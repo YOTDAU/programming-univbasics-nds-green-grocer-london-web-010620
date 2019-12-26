@@ -16,7 +16,8 @@ def consolidate_cart(cart)
   cart = []
   i = 0 
   
-  while i < cart.length do 
+  while i < cart.length do
+    item = 
     
 
 
