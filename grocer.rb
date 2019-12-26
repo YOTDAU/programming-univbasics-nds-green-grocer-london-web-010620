@@ -28,7 +28,6 @@ def consolidate_cart(cart)
         :count => cart[i][:count]
       }
       
-    
 
 
   # Consult README for inputs and outputs
