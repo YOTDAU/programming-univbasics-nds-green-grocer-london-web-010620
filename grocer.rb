@@ -95,7 +95,9 @@ def checkout(cart, coupons)
   clearance_applied_cart = apply_clearance(coupon_applied_cart)
   
   while i < clearance_applied_cart.size do
-    total += clearance_applied_cart[i][:price]
+    total += clearance_applied_cart[i][:price] * clearance_applied_cart[i][:count]
+  end
+  
     
   
   # Consult README for inputs and outputs
