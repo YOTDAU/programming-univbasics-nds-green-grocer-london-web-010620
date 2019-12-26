@@ -74,7 +74,8 @@ def apply_clearance(cart)
   i = 0 
   
   while i< cart.count do 
-    
+    if cart[i][:clearance] 
+      
   
   # Consult README for inputs and outputs
   #
