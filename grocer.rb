@@ -52,7 +52,8 @@ def apply_coupons(cart, coupons)
         item_name -= coupons[i][:num]
       else
         item_coupon = {
-          
+          :item => coupon_name, 
+          :price => 
         }
     
     
